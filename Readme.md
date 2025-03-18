@@ -78,6 +78,10 @@
 <a href="https://www.lama.ai/" target="_blank" rel="noreferrer">
   Llama
 </a>
+<br>
+<a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer">
+  <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="30" height="30"/>
+</a>
 
 ---
 
