@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Minahil Azaz
 
-**AI Developer | Machine Learning Engineer | Deep Learning | NLP | Computer Vision | UET Graduate**
+**AI Developer | Machine Learning Engineer | Deep Learning | NLP | Computer Vision **
 
 ---
 
@@ -45,8 +45,8 @@
 <a href="https://pandas.pydata.org/" target="_blank"><img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="Pandas" width="30"/></a>
 <a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="30"/></a>
 <a href="https://opencv.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30"/></a>
-<a href="https://www.nltk.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/NLTK_logo.png" alt="NLTK" width="30"/></a>
-<a href="https://www.lama.ai/" target="_blank"><strong>Llama</strong></a>
+<a href="[https://www.nltk.org/](https://www.nltk.org/#)" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/NLTK_logo.png" alt="NLTK" width="30"/></a>
+
 <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="30"/></a>
 
 ---
