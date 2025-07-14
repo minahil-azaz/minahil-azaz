@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Minahil Azaz
 
-**AI Developer | Machine Learning Engineer | Deep Learning | NLP | Computer Vision **
+AI Developer | Machine Learning Engineer | Deep Learning | NLP | Computer Vision 
 
 ---
 
