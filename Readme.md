@@ -80,6 +80,24 @@
 
 ---
 
+## 📝 Research & Publications
+
+<div align="center">
+
+| | |
+|:---:|:---|
+| 📖 | **Published in Springer — Infosys Science Foundation Series** |
+| 🔗 | [Read on Springer Link](https://link.springer.com/chapter/10.1007/978-981-95-2212-5_14) |
+| 👥 | **Minahil Azaz** & Syeda Um e Farwa |
+| 📊 | 102 Accesses |
+
+</div>
+
+> *"In information security, it is... scalability remains a key challenge."*
+> — Published Chapter · Infosys Science Foundation Series (ISFM) · Springer
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
