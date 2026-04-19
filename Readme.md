@@ -117,7 +117,7 @@
 ## 🐍 Contribution Snake
 
 <div align="center">
- <img src="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake-dark.svg" />
+<img src="https://github.com/minahil-azaz/minahil-azaz/github-contribution-grid-snake-dark.svg" />
 </div>
 
 ---
