@@ -63,41 +63,7 @@ class MinahilAzaz:
 
 </div>
 
-> ⚙️ **One-time setup to make snake live:** Create the file `.github/workflows/snake.yml` in your profile repo (`minahil-azaz/minahil-azaz`) with this content, then go to **Actions tab → Run workflow** manually once:
-
-<details>
-<summary>📄 Click to expand <code>snake.yml</code></summary>
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
----
+> ⚙️ **One-time setup to make snake live:** Create the file `.github/workflows/snake.yml` in your profile repo (`minahil-azaz/minahil-azaz`) 
 
 ## ⚡ Tech Stack
 
