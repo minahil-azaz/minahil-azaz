@@ -112,15 +112,7 @@
   <img src="https://streak-stats.demolab.com/?user=minahil-azaz&theme=tokyonight&hide_border=true&background=0d1117&stroke=0e75b6&ring=a960ee&fire=a960ee&currStreakLabel=0e75b6" width="60%"/>
 </div>
 
----
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/github-contribution-grid-snake-dark.svg" />
-</div>
-
----
 
 ## 🔥 Contribution Activity
 
