@@ -63,7 +63,9 @@ class MinahilAzaz:
 
 </div>
 
-> ⚙️ **One-time setup to make snake live:** Create the file `.github/workflows/snake.yml` in your profile repo (`minahil-azaz/minahil-azaz`) 
+> ⚙️ **One-time setup to make snake live:** Create the file `.github/workflows/snake.yml` in your profile repo (`minahil-azaz/minahil-azaz`)
+
+---
 
 ## ⚡ Tech Stack
 
@@ -135,17 +137,17 @@ class MinahilAzaz:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minahil-azaz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=a960ee&text_color=c9d1d9" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=minahil-azaz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=a960ee&text_color=c9d1d9&count_private=true&include_all_commits=true" height="170"/>
 
   &nbsp;
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minahil-azaz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minahil-azaz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9&count_private=true" height="170"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=minahil-azaz&theme=tokyonight&hide_border=true&background=0d1117&stroke=ff6b6b&ring=a960ee&fire=ff6b6b&currStreakLabel=ff6b6b" width="60%"/>
+  <img src="https://streak-stats.demolab.com?user=minahil-azaz&theme=tokyonight&hide_border=true&background=0d1117&stroke=ff6b6b&ring=a960ee&fire=ff6b6b&currStreakLabel=ff6b6b&count_private=true&date_format=j%20M%5B%20Y%5D&starting_year=2024" width="60%"/>
 </div>
 
 ---
