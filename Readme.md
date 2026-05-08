@@ -23,10 +23,10 @@
 ```python
 class MinahilAzaz:
     location   = "Lahore, Pakistan"
-    education  = "B.Sc. Computer Science — UET Lahore  |  GPA: 3.19 / 4.0"
+    education  = "B.Sc. Computer Science — UET Lahore  |  GPA: 3.19/4.0"
     current    = "Full Stack AI Engineer @ RemoteDev Limited"
     prev       = ["AI Engineer @ Dot Republic Media", "GenAI Intern @ Xavor Corporation"]
-    research   = "First Author — Springer Nature, ICCIS 2024"
+    research   = "Lead Author — Springer Nature, ICCIS 2024"
 
     expertise  = [
         "LLM Systems & Prompt Engineering",
@@ -34,7 +34,7 @@ class MinahilAzaz:
         "Agentic AI     (LangGraph · Tool-use · Multi-step Reasoning)",
         "Computer Vision (PyTorch · OpenCV)",
         "Explainable AI  (SHAP · LIME · Grad-CAM · Attention)",
-        "Full-Stack      (FastAPI · React · Django · Docker · AWS)",
+        "Full-Stack      (FastAPI · React · Django · Docker · AWS · GCP)",
     ]
 
     philosophy = "I don't just build models — I ship complete AI systems."
@@ -47,26 +47,26 @@ class MinahilAzaz:
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                END-TO-END AI SYSTEM DESIGN                       │
+│                   END-TO-END AI SYSTEM DESIGN                    │
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │   📦 Raw Data                                                    │
 │       │                                                          │
 │       ▼                                                          │
-│   🔧 Preprocessing ──► 🧠 Model Training ──► 📊 Evaluation       │
-│                                 │                                │
-│               ┌─────────────────┴──────────────────┐            │
+│   🔧 Preprocessing → 🧠 Model Training → 📊 Evaluation           │
+│                                │                                 │
+│               ┌────────────────┴───────────────────┐            │
 │               ▼                                    ▼            │
 │        📚 RAG Pipeline                    🔁 Agent Loop         │
 │    Chunk → Embed → Store              Plan → Act → Reflect      │
 │               │                                    │            │
-│               └─────────────────┬──────────────────┘            │
-│                                 ▼                                │
-│                       ⚡ FastAPI / REST Layer                     │
-│                                 │                                │
-│               ┌─────────────────┴──────────────────┐            │
+│               └────────────────┬───────────────────┘            │
+│                                ▼                                 │
+│                      ⚡ FastAPI / REST Layer                      │
+│                                │                                 │
+│               ┌────────────────┴───────────────────┐            │
 │               ▼                                    ▼            │
-│        🌐 React Frontend                    ☁️ Cloud Deploy      │
+│        🌐 React Frontend                   ☁️ Cloud Deploy       │
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
@@ -88,7 +88,7 @@ RecursiveCharacterTextSplitter  (chunk_size=500, overlap=50)
 HuggingFaceEmbeddings  (all-MiniLM-L6-v2)
       │
       ▼
-ChromaDB  ──►  Persistent Vector Store
+ChromaDB  →  Persistent Vector Store
       │
       ▼
 Similarity Search  (k=4)
@@ -97,10 +97,17 @@ Similarity Search  (k=4)
 Mistral 7B Instruct  (HuggingFace Inference API)
       │
       ▼
-Grounded Response  ──►  Citation-backed Answer
+Grounded Response  →  Citation-backed Answer
 ```
 
 ```python
+# Requires: langchain-huggingface, langchain-chroma (modern imports)
+from langchain_huggingface import HuggingFaceEmbeddings, HuggingFaceEndpoint
+from langchain_chroma import Chroma
+from langchain.chains import RetrievalQA
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
 class RAGPipeline:
     def __init__(self, pdf_path: str):
         docs     = PyMuPDFLoader(pdf_path).load()
@@ -196,7 +203,6 @@ agent = graph.compile()
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=3fb950)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7B2FBE?style=flat-square&logo=llama&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
 ![Tavily](https://img.shields.io/badge/Tavily-00B4D8?style=flat-square&logo=searchengin&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
@@ -227,10 +233,10 @@ agent = graph.compile()
 |--------|---------|
 | 🔁 **Agentic AI** | LangGraph multi-step loops · tool-use · planner-executor · stateful graphs |
 | 📚 **RAG Infrastructure** | PDF ingestion · semantic chunking · vector search · grounded generation |
-| 🧠 **LLM Systems** | HuggingFace transformers · fine-tuning · prompt optimization · eval |
+| 🧠 **LLM Systems** | HuggingFace Transformers · fine-tuning · prompt optimization · evaluation |
 | 👁️ **Computer Vision** | CNN classification · Siamese networks · object detection · segmentation |
 | 🔍 **Explainable AI** | SHAP · LIME · Grad-CAM · attention visualization · feature attribution |
-| ⚡ **AI Deployment** | FastAPI microservices · Docker · REST APIs · cloud (AWS · GCP) |
+| ⚡ **AI Deployment** | FastAPI microservices · Docker · REST APIs · cloud (AWS · GCP · Azure) |
 
 ---
 
@@ -296,7 +302,12 @@ agent = graph.compile()
 
 </div>
 
-> **Setup:** Add `.github/workflows/snake.yml` to your profile repo to generate the snake automatically.
+<details>
+<summary>⚙️ Setup: Auto-generate the snake via GitHub Actions</summary>
+
+Add `.github/workflows/snake.yml` to your profile repo to auto-generate the snake on a schedule.
+
+</details>
 
 ---
 
@@ -306,7 +317,7 @@ agent = graph.compile()
 
 | Status | Role |
 |:---:|:---|
-| ✅ | **AI / ML Engineer** — LLM systems · RAG · production ML |
+| ✅ | **AI / ML Engineer** — LLM systems · RAG pipelines · production ML |
 | ✅ | **MSc / PhD Research** — XAI · computer vision · applied ML |
 | ✅ | **AI Product Collaborations** — agentic workflows · intelligent systems |
 
@@ -333,7 +344,7 @@ agent = graph.compile()
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 ```
-Data  →  Model  →  RAG  →  Agent  →  API  →  Deploy  →  Scale
+Data → Model → RAG → Agent → API → Deploy → Scale
 ```
 
 *AI Engineer focused on building scalable LLM systems, retrieval-augmented architectures, and agentic workflows.*
