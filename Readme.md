@@ -1,134 +1,258 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,50:a960ee,100:ff6b6b&height=250&section=header&text=Minahil%20Azaz&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20AI%20Engineer&descColor=c9d1d9&descAlignY=58&animation=fadeIn&stroke=ffffff&strokeWidth=2" width="100%"/>
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=800&color=FF6B6B&center=true&vCenter=true&width=750&lines=🤖+Full+Stack+AI+Engineer;🧠+Machine+Learning+%7C+Deep+Learning;💬+NLP+%7C+LLM+Systems+%7C+RAG+Pipelines;👁️+Computer+Vision+Applications;🔗+LangChain+%7C+LlamaIndex+%7C+Agents;🚀+Deploying+AI+to+Production+at+Scale" alt="Typing SVG" />
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0e2a45,100:0e75b6&height=260&section=header&text=Minahil%20Azaz&fontSize=76&fontColor=ffffff&fontAlignY=40&desc=AI%20Engineer%20%7C%20LLM%20Systems%20%7C%20RAG%20Pipelines%20%7C%20Agentic%20AI&descColor=58a6ff&descAlignY=60&animation=fadeIn" width="100%"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=17&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Building+production-grade+LLM+%26+ML+systems;RAG+Pipelines+%7C+ChromaDB+%7C+LangChain;Agentic+AI+%7C+LangGraph+%7C+Multi-Agent+Loops;Computer+Vision+%7C+Explainable+AI+%7C+XAI;Data+%E2%86%92+Model+%E2%86%92+Agent+%E2%86%92+API+%E2%86%92+Deploy" alt="Typing SVG" />
 
 <br/>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=minahil-azaz&label=Profile+Views&color=ff6b6b&style=for-the-badge" alt="Profile Views"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/minahil-azaz?label=Followers&style=for-the-badge&color=a960ee&labelColor=161b22" alt="Followers"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Open%20To%20Work-00D26A?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Open To Work"/>
-</div>
-
----
-
-<div align="center">
-
-```
-██████████████████████████████████████████████████████
-█                                                    █
-█   📦 Data ──► 🧠 Model ──► ⚡ API ──► 🌐 UI ──► ☁️  █
-█                                                    █
-██████████████████████████████████████████████████████
-```
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-238636?style=flat-square&logo=checkmarx&logoColor=white)
+&nbsp;
+![MSc PhD](https://img.shields.io/badge/MSc%20%2F%20PhD%20Opportunities-0969DA?style=flat-square&logo=academia&logoColor=white)
+&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=minahil-azaz&label=profile+views&color=58a6ff&style=flat-square)
+&nbsp;
+![Followers](https://img.shields.io/github/followers/minahil-azaz?label=followers&style=flat-square&color=8b949e)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## `$ whoami`
 
 ```python
 class MinahilAzaz:
-    def __init__(self):
-        self.name        = "Minahil Azaz"
-        self.degree      = "BS Computer Science — UET Lahore"
-        self.role        = "Full Stack AI Engineer"
-        self.expertise   = ["Deep Learning", "NLP", "LLMs", "Computer Vision"]
-        self.pipeline    = "Data → Model → API → Frontend → Deploy"
-        self.clouds      = ["AWS", "GCP", "Azure"]
-        self.motto       = "I don't just build models — I ship complete AI systems."
+    location   = "Lahore, Pakistan"
+    education  = "B.Sc. Computer Science — UET Lahore  |  GPA: 3.19 / 4.0"
+    current    = "Full Stack AI Engineer @ RemoteDev Limited"
+    prev       = ["AI Engineer @ Dot Republic Media", "GenAI Intern @ Xavor Corporation"]
+    research   = "First Author — Springer Nature, ICCIS 2024"
 
-    def current_focus(self):
-        return ["LLM Agents", "RAG Pipelines", "Production AI at Scale"]
+    expertise  = [
+        "LLM Systems & Prompt Engineering",
+        "RAG Pipelines  (ChromaDB · FAISS · LangChain)",
+        "Agentic AI     (LangGraph · Tool-use · Multi-step Reasoning)",
+        "Computer Vision (PyTorch · OpenCV)",
+        "Explainable AI  (SHAP · LIME · Grad-CAM · Attention)",
+        "Full-Stack      (FastAPI · React · Django · Docker · AWS)",
+    ]
+
+    philosophy = "I don't just build models — I ship complete AI systems."
+    goal       = "PhD in Explainable AI — healthcare & agriculture"
 ```
 
 ---
 
-## 🐍 Contribution Snake
+## 🏗️ System Architecture
 
-<div align="center">
+```
+┌──────────────────────────────────────────────────────────────────┐
+│                END-TO-END AI SYSTEM DESIGN                       │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   📦 Raw Data                                                    │
+│       │                                                          │
+│       ▼                                                          │
+│   🔧 Preprocessing ──► 🧠 Model Training ──► 📊 Evaluation       │
+│                                 │                                │
+│               ┌─────────────────┴──────────────────┐            │
+│               ▼                                    ▼            │
+│        📚 RAG Pipeline                    🔁 Agent Loop         │
+│    Chunk → Embed → Store              Plan → Act → Reflect      │
+│               │                                    │            │
+│               └─────────────────┬──────────────────┘            │
+│                                 ▼                                │
+│                       ⚡ FastAPI / REST Layer                     │
+│                                 │                                │
+│               ┌─────────────────┴──────────────────┐            │
+│               ▼                                    ▼            │
+│        🌐 React Frontend                    ☁️ Cloud Deploy      │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake.svg" />
-</picture>
+---
 
-</div>
+## 📚 RAG Pipeline
 
-> ⚙️ **One-time setup to make snake live:** Create the file `.github/workflows/snake.yml` in your profile repo (`minahil-azaz/minahil-azaz`)
+```
+PDF / Text Corpus
+      │
+      ▼
+PyMuPDFLoader
+      │
+      ▼
+RecursiveCharacterTextSplitter  (chunk_size=500, overlap=50)
+      │
+      ▼
+HuggingFaceEmbeddings  (all-MiniLM-L6-v2)
+      │
+      ▼
+ChromaDB  ──►  Persistent Vector Store
+      │
+      ▼
+Similarity Search  (k=4)
+      │
+      ▼
+Mistral 7B Instruct  (HuggingFace Inference API)
+      │
+      ▼
+Grounded Response  ──►  Citation-backed Answer
+```
+
+```python
+class RAGPipeline:
+    def __init__(self, pdf_path: str):
+        docs     = PyMuPDFLoader(pdf_path).load()
+        chunks   = RecursiveCharacterTextSplitter(
+                       chunk_size=500, chunk_overlap=50
+                   ).split_documents(docs)
+        embedder = HuggingFaceEmbeddings(
+                       model_name="sentence-transformers/all-MiniLM-L6-v2"
+                   )
+        self.db  = Chroma.from_documents(chunks, embedder)
+        self.llm = HuggingFaceEndpoint(
+                       repo_id="mistralai/Mistral-7B-Instruct-v0.3"
+                   )
+
+    def query(self, question: str) -> str:
+        chain = RetrievalQA.from_chain_type(
+            llm=self.llm,
+            retriever=self.db.as_retriever(search_kwargs={"k": 4})
+        )
+        return chain.invoke({"query": question})["result"]
+```
+
+**Stack:** `LangChain` · `ChromaDB` · `PyMuPDF` · `HuggingFace Inference API` · `Mistral 7B Instruct`
+
+---
+
+## 🔁 Agentic AI — LangGraph
+
+```
+                      ┌──────────────┐
+                      │   PLANNER    │  ← Decomposes topic into sub-goals
+                      └──────┬───────┘
+                             │
+           ┌─────────────────┼─────────────────┐
+           ▼                 ▼                 ▼
+    ┌─────────────┐  ┌──────────────┐  ┌──────────────────┐
+    │   SEARCHER  │  │  RETRIEVER   │  │   SYNTHESIZER    │
+    │ Tavily API  │  │  ChromaDB    │  │  LLM Reasoning   │
+    └──────┬──────┘  └──────┬───────┘  └────────┬─────────┘
+           └─────────────────┼─────────────────┘
+                             │
+                      ┌──────▼───────┐
+                      │   EXPORTER   │  ← WeasyPrint PDF + SSE Stream
+                      └──────────────┘
+```
+
+```python
+from langgraph.graph import StateGraph, END
+from typing import TypedDict
+
+class ResearchState(TypedDict):
+    topic:             str
+    plan:              list[str]
+    search_results:    list[str]
+    retrieved_context: list[str]
+    final_report:      str
+
+graph = StateGraph(ResearchState)
+graph.add_node("planner",     planner_node)    # task decomposition
+graph.add_node("searcher",    search_node)     # Tavily web search
+graph.add_node("retriever",   retrieval_node)  # ChromaDB memory
+graph.add_node("synthesizer", synthesize_node) # LLM writing
+graph.add_node("exporter",    export_node)     # PDF + streaming
+
+graph.set_entry_point("planner")
+graph.add_edge("planner",     "searcher")
+graph.add_edge("searcher",    "retriever")
+graph.add_edge("retriever",   "synthesizer")
+graph.add_edge("synthesizer", "exporter")
+graph.add_edge("exporter",    END)
+
+agent = graph.compile()
+```
+
+**Stack:** `LangGraph` · `FastAPI` · `React/Vite` · `ChromaDB` · `Tavily` · `WeasyPrint` · `SSE Streaming`
 
 ---
 
 ## ⚡ Tech Stack
 
-### 🧠 AI / Machine Learning
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
+<div align="center">
 
-### 🔗 LLM & Agent Frameworks
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7B2FBE?style=for-the-badge&logo=llama&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+**AI / ML**
 
-### 🌐 Full Stack Development
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat-square&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+**LLM / RAG / Agents**
 
-### 🛠 Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=3fb950)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7B2FBE?style=flat-square&logo=llama&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
+![Tavily](https://img.shields.io/badge/Tavily-00B4D8?style=flat-square&logo=searchengin&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
----
+**Backend / Full Stack**
 
-## 🌟 Core Expertise
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-| Domain | Skills |
-|--------|--------|
-| 🤖 End-to-End AI Systems | Model design → API → Frontend → Production |
-| 💬 NLP & LLM Systems | Transformers, RAG pipelines, prompt engineering |
-| 🔗 AI Agents & Orchestration | LangChain, LlamaIndex, tool-use, memory |
-| 👁️ Computer Vision | Object detection, segmentation, classification |
-| ⚡ Model Deployment | FastAPI, Streamlit, Gradio, Docker, REST APIs |
-| ☁️ Scalable Cloud AI | AWS SageMaker, GCP Vertex AI, Azure ML, K8s |
+**Cloud / DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</div>
 
 ---
 
-## 📝 Research & Publications
+## 🧩 Core Competencies
+
+| Domain | Details |
+|--------|---------|
+| 🔁 **Agentic AI** | LangGraph multi-step loops · tool-use · planner-executor · stateful graphs |
+| 📚 **RAG Infrastructure** | PDF ingestion · semantic chunking · vector search · grounded generation |
+| 🧠 **LLM Systems** | HuggingFace transformers · fine-tuning · prompt optimization · eval |
+| 👁️ **Computer Vision** | CNN classification · Siamese networks · object detection · segmentation |
+| 🔍 **Explainable AI** | SHAP · LIME · Grad-CAM · attention visualization · feature attribution |
+| ⚡ **AI Deployment** | FastAPI microservices · Docker · REST APIs · cloud (AWS · GCP) |
+
+---
+
+## 📝 Research & Publication
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  📖  Springer Nature — Infosys Science Foundation Series            │
+│                                                                      │
+│  "Enhancing Information Security: Proactive Detection,              │
+│   Vulnerability Remediation, and Systematic Risk Management"         │
+│                                                                      │
+│  Authors  :  Minahil Azaz  ·  Syeda Um e Farwa                     │
+│  Venue    :  ICCIS 2024 — Computational Intelligent Systems         │
+│  Pages    :  201–215  ·  First Online: January 29, 2026            │
+│  DOI      :  10.1007/978-981-95-2212-5_14                          │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-| | |
-|:---:|:---|
-| 📖 | **Published in Springer — Infosys Science Foundation Series** |
-| 🔗 | [Read on Springer Link](https://link.springer.com/chapter/10.1007/978-981-95-2212-5_14) |
-| 👥 | **Minahil Azaz** & Syeda Um e Farwa |
-| 📊 | 102 Accesses |
+[![Read on Springer](https://img.shields.io/badge/Read%20on%20Springer-00599C?style=flat-square&logo=springer&logoColor=white)](https://link.springer.com/chapter/10.1007/978-981-95-2212-5_14)
 
 </div>
 
@@ -137,64 +261,81 @@ class MinahilAzaz:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minahil-azaz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=a960ee&text_color=c9d1d9&count_private=true&include_all_commits=true" height="170"/>
 
-  &nbsp;
+<img src="https://github-readme-stats.vercel.app/api?username=minahil-azaz&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&count_private=true&include_all_commits=true" height="170"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minahil-azaz&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&count_private=true" height="170"/>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minahil-azaz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9&count_private=true" height="170"/>
-</div>
+<br/><br/>
 
-<br/>
+<img src="https://streak-stats.demolab.com?user=minahil-azaz&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=58a6ff&fire=3fb950&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=8b949e&dates=8b949e&starting_year=2024" width="55%"/>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=minahil-azaz&theme=tokyonight&hide_border=true&background=0d1117&stroke=ff6b6b&ring=a960ee&fire=ff6b6b&currStreakLabel=ff6b6b&count_private=true&date_format=j%20M%5B%20Y%5D&starting_year=2024" width="60%"/>
-</div>
-
----
-
-## 🔥 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=minahil-azaz&bg_color=0d1117&color=ff6b6b&line=a960ee&point=ffffff&area=true&hide_border=true" width="100%"/>
 </div>
 
 ---
 
-## 🔍 Currently Open To
+## 🔥 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=minahil-azaz&bg_color=0d1117&color=58a6ff&line=3fb950&point=ffffff&area=true&hide_border=true" width="100%"/>
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/minahil-azaz/minahil-azaz/output/github-contribution-grid-snake.svg"/>
+</picture>
+
+</div>
+
+> **Setup:** Add `.github/workflows/snake.yml` to your profile repo to generate the snake automatically.
+
+---
+
+## 🎯 Open To
 
 <div align="center">
 
 | Status | Role |
-|:------:|------|
-| 🟢 **AVAILABLE** | AI / ML Engineer Roles |
-| 🟢 **AVAILABLE** | MS / PhD Research Opportunities |
-| 🟢 **AVAILABLE** | AI Product Development Collaborations |
+|:---:|:---|
+| ✅ | **AI / ML Engineer** — LLM systems · RAG · production ML |
+| ✅ | **MSc / PhD Research** — XAI · computer vision · applied ML |
+| ✅ | **AI Product Collaborations** — agentic workflows · intelligent systems |
 
 </div>
 
 ---
 
-## 📬 Connect With Me
+## 📬 Contact
 
 <div align="center">
-  &nbsp;
-  <a href="mailto:minahilazaz45@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/minahil-azaz-397756241/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/minahil-azaz">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+
+[![Gmail](https://img.shields.io/badge/minahilazaz45%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:minahilazaz45@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minahil-azaz-397756241/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/minahil-azaz)
+
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6b6b,50:a960ee,100:0e75b6&height=140&section=footer&animation=fadeIn" width="100%"/>
 
-  ### *"I design, build, and deploy complete AI systems — not just models."*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+
+```
+Data  →  Model  →  RAG  →  Agent  →  API  →  Deploy  →  Scale
+```
+
+*AI Engineer focused on building scalable LLM systems, retrieval-augmented architectures, and agentic workflows.*
+
 </div>
